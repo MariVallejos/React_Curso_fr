@@ -31,7 +31,7 @@ module.exports = {
 
 5. Opcional, pero eventualmente necesario, crear Jest config y setup:
 
-__jest.config.js__
+__jest.config.js__  __NUEVA VERSION NO NECESARIO__
 ```
 module.exports = {
     testEnvironment: 'jest-environment-jsdom',
@@ -52,6 +52,11 @@ __name.config.js "js x cjs"__
 // Modificar archivos, 
 babel.config.js por babel.config.cjs 
 y jest.config.js por jest.config.cjs
+
+
+//En la nueva actualizacion:
+
+1.  No se necesita el archivo jest.config.js 
 ```
 
 7. Correr test
