@@ -31,7 +31,7 @@ module.exports = {
 
 5. Opcional, pero eventualmente necesario, crear Jest config y setup:
 
-__jest.config.js__  __NUEVA VERSION NO NECESARIO__
+__jest.config.js__  
 ```
 module.exports = {
     testEnvironment: 'jest-environment-jsdom',
@@ -52,6 +52,20 @@ __name.config.js "js x cjs"__
 // Modificar archivos, 
 babel.config.js por babel.config.cjs 
 y jest.config.js por jest.config.cjs
+
+
+```
+
+__NUEVA VERSION NO NECESARIO__
+
+```
+// si no quiere correr el test , con estos paso probar con una instalacion:
+
+Try installing jest as a dev dependency.
+
+npm install --save-dev jest
+
+Then run it with : npm test
 
 
 ```
