@@ -56,12 +56,10 @@ y jest.config.js por jest.config.cjs
 
 ```
 
-__NUEVA VERSION NO NECESARIO__
+__Opcional: En caso de no correr el test probar sigueinte instalacion__
 
 ```
-// si no quiere correr el test , con estos paso probar con una instalacion:
-
-Try installing jest as a dev dependency.
+// Try installing jest as a dev dependency.
 
 npm install --save-dev jest
 
